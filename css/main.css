@@ -34,3 +34,8 @@ html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
               -ms-transform: rotate(-45deg); transform: rotate(-45deg);}
 .rotate-right {-moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);
                -ms-transform: rotate(45deg); transform: rotate(45deg);}
+
+.rhombus {float: left; width: 200px; height: 200px; margin: 37px;
+          background: #46244f; border: 6px solid #3ac793;
+          -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg); transform: rotate(-45deg);}
