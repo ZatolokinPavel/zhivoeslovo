@@ -35,7 +35,11 @@ html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
 .rotate-right {-moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);
                -ms-transform: rotate(45deg); transform: rotate(45deg);}
 
-.rhombus {float: left; width: 200px; height: 200px; margin: 37px;
-          background: #46244f; border: 6px solid #3ac793;
+/* Сторона ромба 198px, высота 280px */
+.rhombuses {width: 750px; margin: auto; padding-top: 100px; padding-bottom: 50px;}
+.rhombus {float: left; width: 198px; height: 198px; background: #46244f; border: 6px solid #3ac793;
+          margin-top: -58px; /* -(280/2-198) */
+          margin-left: 82px; /* (280-198) */
           -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg);
           -ms-transform: rotate(-45deg); transform: rotate(-45deg);}
+.rhombus.big-pad {margin-left: 222px;} /* сдвиг первого ромба в нечётной линии */
