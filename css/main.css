@@ -35,11 +35,34 @@ html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
 .rotate-right {-moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);
                -ms-transform: rotate(45deg); transform: rotate(45deg);}
 
-/* Сторона ромба 198px, высота 280px */
-.rhombuses {width: 750px; margin: auto; padding-top: 100px; padding-bottom: 50px;}
-.rhombus {float: left; width: 198px; height: 198px; background: #46244f; border: 6px solid #3ac793;
-          margin-top: -58px; /* -(280/2-198) */
-          margin-left: 82px; /* (280-198) */
+/* Сторона обычного ромба 198px, высота 280px */
+/* Сторона большого ромба 396px, высота 560px */
+/*.rhombuses {width: 1200px; margin: -41px auto 41px auto;}   !* 41 = (280-198)/2 *!*/
+/*.rhombus {float: left; width: 198px; height: 198px; background: #46244f; border: 6px solid #3ac793;*/
+          /*margin-top: -58px; !* -(280/2-198) *!*/
+          /*margin-left: 82px; !* (280-198) *!*/
+          /*-moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg);*/
+          /*-ms-transform: rotate(-45deg); transform: rotate(-45deg);}*/
+/*.rhombus.big {width: 396px; height: 396px; margin-top: -157px; margin-left: 123px;}*/
+/*.rhombus.first {margin-left: 222px;} !* сдвиг первого ромба в нечётной линии *!*/
+
+/* Сторона обычного ромба 198px, высота 280px */
+/* Сторона большого ромба 396px, высота 560px */
+.rhombuses {position: relative; width: 1120px; height: 420px; margin: 0 auto; padding: 0;}
+.rhombus {position: absolute; width: 198px; height: 198px; margin: 41px; /* 41 = (280-198)/2 */
+          background: #46244f; border: 6px solid #3ac793;
           -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg);
           -ms-transform: rotate(-45deg); transform: rotate(-45deg);}
-.rhombus.big-pad {margin-left: 222px;} /* сдвиг первого ромба в нечётной линии */
+.rhombus.big {top: -140px; left: 420px; width: 396px; height: 396px; margin: 82px;}
+.rhombus.s1  {top: -140px; left: 0;}
+.rhombus.s2  {top: -140px; left: 280px;}
+.rhombus.s3  {top: -140px; left: 840px;}
+.rhombus.s4  {top:    0;   left: 140px;}
+.rhombus.s5  {top:  140px; left: 0;}
+.rhombus.s6  {top:  140px; left: 280px;}
+.rhombus.s7  {top:  140px; left: 840px;}
+.rhombus.s8  {top:  280px; left:-140px;}
+.rhombus.s9  {top:  280px; left: 140px;}
+.rhombus.s10 {top:  280px; left: 420px;}
+.rhombus.s11 {top:  280px; left: 700px;}
+.rhombus.s12 {top:  280px; left: 980px;}
