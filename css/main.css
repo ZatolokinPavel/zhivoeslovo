@@ -9,6 +9,7 @@ img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
 html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
+body {font-family: "Segoe UI", Arial, Helvetica, sans-serif}
 
 .grid {margin: 0 0 -15px -15px; width: auto;}
 .grid > * {padding: 0 0 15px 15px;}
@@ -39,19 +40,19 @@ html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
 
 /* Сторона обычного ромба 198px, высота 280px */
 /* Сторона большого ромба 396px, высота 560px */
-.rhombuses {position: relative; width: 1120px; height: 420px; margin: 0 auto; padding: 0;}
+.rhombuses {position: relative; width: 1120px; height: 420px; margin: 0 auto; padding: 0; overflow: hidden;}
 .rhombus {position: absolute; width: 198px; height: 198px; margin: 41px; /* 41 = (280-198)/2 */
-          background: #3ac793; border: 6px solid transparent;
+          background: #3ac793; border: 6px solid transparent; overflow: hidden;
           -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg);
           -ms-transform: rotate(-45deg); transform: rotate(-45deg);}
 .rhombus:after {display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
                 z-index: -1; content: ''; background: #46244f;}
 .rhombus.big {top: -140px; left: 420px; width: 396px; height: 396px; margin: 82px;}
-.rhombus.r1  {top: -140px; left: 0;}
+.rhombus.r1  {top: -140px; left:     0;}
 .rhombus.r2  {top: -140px; left: 280px;}
 .rhombus.r3  {top: -140px; left: 840px;}
-.rhombus.r4  {top:    0;   left: 140px;}
-.rhombus.r5  {top:  140px; left: 0;}
+.rhombus.r4  {top:      0; left: 140px;}
+.rhombus.r5  {top:  140px; left:     0;}
 .rhombus.r6  {top:  140px; left: 280px;}
 .rhombus.r7  {top:  140px; left: 840px;}
 .rhombus.r8  {top:  280px; left:-140px;}
@@ -59,3 +60,10 @@ html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
 .rhombus.r10 {top:  280px; left: 420px;}
 .rhombus.r11 {top:  280px; left: 700px;}
 .rhombus.r12 {top:  280px; left: 980px;}
+
+.rhombus .kharin {}
+.rhombus p.tile {
+    display: block; position: relative; width: 141%; height: 141%; top: -20.5%; left: -20.5%; margin: 0; padding: 0;
+    background-position: center center; background-size: cover;
+    -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg); transform: rotate(45deg);}
