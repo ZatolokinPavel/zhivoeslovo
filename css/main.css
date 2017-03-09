@@ -1,4 +1,6 @@
-/* Общие классы */
+/**
+ *  Общие классы
+ */
 * {box-sizing: border-box;}
 .box {width: 100%; position: relative;}
 .box:after {content: ""; display: block; clear: both;}
@@ -12,6 +14,20 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
 body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
 
+
+
+/**
+ *  ЗАРЕЗЕРВИРОВАННЫЕ ИМЕНА КЛАССОВ
+ *  Не используй эти имена самостоятельно!
+ *  Они нужны для уточнений внутри других классов.
+ */
+.big, .top {}
+
+
+
+/**
+ *  Сетка и колонки, общий вариант.
+ */
 .grid {margin: 0 0 -15px -15px; width: auto;}
 .grid > * {padding: 0 0 15px 15px;}
 .grid > .nogrid {padding-bottom: 0;}
@@ -39,8 +55,11 @@ body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
 
 
 
-/* Сторона обычного ромба 198px, высота 280px */
-/* Сторона большого ромба 396px, высота 560px */
+/**
+ *  Ромбы в самом верху главной страницы.
+ *  Сторона обычного ромба 198px, высота 280px
+ *  Сторона большого ромба 396px, высота 560px
+ */
 .rhombuses {position: relative; width: 1120px; height: 420px; margin: 0 auto; padding: 0; overflow: hidden;}
 .rhombus {position: absolute; width: 198px; height: 198px; margin: 41px; /* 41 = (280-198)/2 */
           background: #3ac793; border: 6px solid transparent; overflow: hidden;
@@ -69,8 +88,10 @@ body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
     -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg); transform: rotate(45deg);}
 
-.main-menu {margin: 0; padding: 0; text-align: center; font-size: 1.1em; color: #46244f; background: #fde9a0;}
-.main-menu > ul {display: inline-block;}
-.main-menu > ul > li {float: left;}
-.main-menu > ul > li + li:before {content: "|";}
-.main-menu a {display: inline-block; width: 113px; line-height: 47px; color: #46244f; text-align: center; text-decoration: none;}
+.main-menu {margin: 0; padding: 0; font-size: 1.1em; color: #46244f; background: #fde9a0;}
+.main-menu > div {display: table; margin: 0 auto; max-width: 1170px; width: 100%;}
+.main-menu ul.top {display: table-row; text-align: center;}
+.main-menu ul.top > li {display: table-cell; position: relative; width: 10%; padding-left: 4px;}
+.main-menu ul.top > li + li:before {display: block; content: "|"; position: absolute; left: 0; line-height: 47px;}
+.main-menu a {display: block; width: 100%; line-height: 47px; padding: 0 5px; color: #46244f; text-decoration: none;}
+.main-menu a:hover {background: #3ac793;}
