@@ -64,7 +64,7 @@ body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
  *  Сторона обычного ромба 198px, высота 280px
  *  Сторона большого ромба 396px, высота 560px
  */
-.rhombuses {position: relative; width: 1120px; height: 420px; overflow: hidden;}
+.rhombuses {position: relative; width: 1120px; height: 370px; overflow: hidden;}
 @media (min-width:  768px) { .rhombuses {width:  750px;} }
 @media (min-width:  992px) { .rhombuses {width:  970px;} }
 @media (min-width: 1200px) { .rhombuses {width: 1466px; margin-left: -148px;} } /* 1466 = 1170 + 296 (диагональ ромба) */
@@ -74,19 +74,19 @@ body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
           -ms-transform: rotate(-45deg); transform: rotate(-45deg);}
 .rhombus:after {display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
                 z-index: -1; content: ''; background: #46244f;}
-.rhombus.big {top: -64px; left: 653px; width: 408px; height: 408px;}
-.rhombus.r1  {top:-105px; left: 192px;}
-.rhombus.r2  {top:-105px; left: 472px;}
-.rhombus.r3  {top:-105px; left:1032px;}
-.rhombus.r4  {top:  35px; left: 332px;}
-.rhombus.r5  {top: 175px; left: 192px;}
-.rhombus.r6  {top: 175px; left: 472px;}
-.rhombus.r7  {top: 175px; left:1032px;}
-.rhombus.r8  {top: 315px; left:  52px;}
-.rhombus.r9  {top: 315px; left: 332px;}
-.rhombus.r10 {top: 315px; left: 612px;}
-.rhombus.r11 {top: 315px; left: 892px;}
-.rhombus.r12 {top: 315px; left:1172px;}
+.rhombus.big {top: -94px; left: 653px; width: 408px; height: 408px;}
+.rhombus.r1  {top:-135px; left: 192px;}
+.rhombus.r2  {top:-135px; left: 472px;}
+.rhombus.r3  {top:-135px; left:1032px;}
+.rhombus.r4  {top:   5px; left: 332px;}
+.rhombus.r5  {top: 145px; left: 192px;}
+.rhombus.r6  {top: 145px; left: 472px;}
+.rhombus.r7  {top: 145px; left:1032px;}
+.rhombus.r8  {top: 285px; left:  52px;}
+.rhombus.r9  {top: 285px; left: 332px;}
+.rhombus.r10 {top: 285px; left: 612px;}
+.rhombus.r11 {top: 285px; left: 892px;}
+.rhombus.r12 {top: 285px; left:1172px;}
 
 .rhombus .kharin {position: absolute; bottom: 0; left: 0; padding: 10px; color: #fff;}
 .rhombus p.tile {
