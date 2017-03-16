@@ -12,7 +12,7 @@ ul {list-style: none; margin: 0; padding: 0;}
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
 
 html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
-body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
+body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif; background: #f3f3f3;}
 .container {position: relative; width: 100%; margin: 0 auto;}
 @media (min-width:  768px) { .container {width:  750px;} }
 @media (min-width:  992px) { .container {width:  970px;} }
@@ -107,3 +107,5 @@ body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
 .main-menu ul.top > li + li:before {display: block; content: "|"; position: absolute; left: 0; line-height: 47px;}
 .main-menu a {display: block; width: 100%; line-height: 47px; padding: 0 5px; color: #46244f; text-decoration: none;}
 .main-menu a:hover {background: #3ac793;}
+
+footer {padding: 35px 15px; text-align: center; color: #fff; background: #46244f}
