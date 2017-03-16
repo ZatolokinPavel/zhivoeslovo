@@ -59,6 +59,11 @@ body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif}
 
 
 
+.main-header {position: relative;}
+.main-header:before {display: block; content: ''; position: absolute; top: 0; left: 0;  width: 50%; height: 100%;
+                     z-index: -2; background: url("/img/header/header_background.jpg") repeat top left}
+.main-header:after  {display: block; content: ''; position: absolute; top: 0; right: 0; width: 50%; height: 100%;
+                     z-index: -2; background: url("/img/header/header_background.jpg") repeat top right}
 /**
  *  Ромбы в самом верху главной страницы.
  *  Сторона обычного ромба 198px, высота 280px
