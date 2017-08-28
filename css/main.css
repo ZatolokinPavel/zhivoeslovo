@@ -129,7 +129,7 @@ body {font-size: 13px; font-family: "Segoe UI", Arial, Helvetica, sans-serif; ba
 .main-menu a {display: block; width: 100%; line-height: 47px; padding: 0 5px; color: #46244f; text-decoration: none;}
 .main-menu a:hover {background: #3ac793;}
 
-.home-activities {position: relative; margin-bottom: 35px; text-align: center;}
+.home-activities {position: relative; margin-bottom: 35px; text-align: center; font-size: 18px;}
 .home-activities.n1 {background: #e1f1eb; padding-left:  50%;}
 .home-activities.n2 {background: #e1d9eb; padding-right: 50%;}
 .home-activities.n3 {background: #dee2ed; padding-left:  50%;}
