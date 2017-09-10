@@ -164,31 +164,31 @@ h4 {font-size: 22px; font-weight: normal;}
 .main-menu a {display: block; width: 100%; line-height: 47px; padding: 0 5px; color: #46244f; text-decoration: none;}
 .main-menu a:hover {background: #3ac793;}
 
-.upcoming-events {margin: 0 0 25px 0; padding: 0 15px; background-color: #46244f;}
-.upcoming-events > h2.title {margin: 0; padding: 8px; text-align: center; color: #fff;}
+.upcoming-events {margin: 0 0 25px 0; padding: 0 15px 10px 15px; background-color: #46244f;}
+.upcoming-events > h2.title {margin: 0; padding: 10px; text-align: center; color: #fff;}
 .upcoming-events .event {position: relative; height: 230px; overflow: hidden;}
 .upcoming-events .event img {width: 100%;}
 .upcoming-events .event .descr {position: absolute; left: 0; right: 0; bottom: 0; height: 45%; text-align: center;
-                                color: #fff; background: rgba(0,0,0,0.6); transition: height 0.2s linear 0s;}
+    color: #fff; background: rgba(0,0,0,0.6); transition: height 0.2s linear 0s;}
 .upcoming-events .event:hover .descr {height: 70%;}
 .upcoming-events .event h4 {margin: 5px; padding: 0;}
 .upcoming-events .event p {margin: 0; padding: 0;}
 
-h2.home-activities-title {display: block; margin: 25px 0; padding: 5px; text-align: center; color: #46244f; background-color: #fde9a0;}
-.home-activities {position: relative; margin-bottom: 35px; text-align: center; font-size: 18px;}
-.home-activities.n1 {background: #e1f1eb; padding-left:  50%;}
-.home-activities.n2 {background: #e1d9eb; padding-right: 50%;}
-.home-activities.n3 {background: #dee2ed; padding-left:  50%;}
-.home-activities > div.cover {position: absolute; top: 0; bottom: 0; width: 50%; height: 100%;
-                              background-repeat: no-repeat; background-size: cover;}
-.home-activities.n1 > div.cover {left:  0; background-image: url("/img/home/rocket-science.jpg")}
-.home-activities.n2 > div.cover {right: 0; background-image: url("/img/home/meditation-spiritual.jpg")}
-.home-activities.n3 > div.cover {left:  0; background-image: url("/img/home/biznes-protsess.jpg")}
-.home-activities > h3 {display: block; position: absolute; color: #fff; left: 50%; margin: 15px 0; padding: 7px 15px;
+.home-activities > h2.title {display: block; margin: 25px 0; padding: 5px; text-align: center; color: #46244f; background: #fde9a0;}
+.home-activities > div {position: relative; margin-bottom: 35px; text-align: center; font-size: 18px;}
+.home-activities > div.n1 {background: #e1f1eb; padding-left:  50%;}
+.home-activities > div.n2 {background: #e1d9eb; padding-right: 50%;}
+.home-activities > div.n3 {background: #dee2ed; padding-left:  50%;}
+.home-activities .cover {position: absolute; top: 0; bottom: 0; width: 50%; height: 100%;
+    background-repeat: no-repeat; background-size: cover;}
+.home-activities .n1 .cover {left:  0; background-image: url("/img/home/rocket-science.jpg")}
+.home-activities .n2 .cover {right: 0; background-image: url("/img/home/meditation-spiritual.jpg")}
+.home-activities .n3 .cover {left:  0; background-image: url("/img/home/biznes-protsess.jpg")}
+.home-activities h3 {display: block; position: absolute; color: #fff; left: 50%; margin: 15px 0; padding: 7px 15px;
                        min-width: 40%; text-align: center;}
-.home-activities.n1 > h3 {background: #3eb388; transform: translateX(-33.333%);}
-.home-activities.n2 > h3 {background: #5d3f66; transform: translateX(-66.666%);}
-.home-activities.n3 > h3 {background: #37477a; transform: translateX(-33.333%);}
+.home-activities .n1 h3 {background: #3eb388; transform: translateX(-33.333%);}
+.home-activities .n2 h3 {background: #5d3f66; transform: translateX(-66.666%);}
+.home-activities .n3 h3 {background: #37477a; transform: translateX(-33.333%);}
 /*.home-activities > h3:before {display: block; content: ''; position: absolute; top: 0; right: 100%; height: 0; width: 0; border: 25px solid darkred; border-bottom-color: transparent; border-left-color: transparent;}*/
 /*.home-activities > h3:after  {display: block; content: ''; position: absolute; top: 0; left:  100%; height: 100%; width: 50px; background: red;}*/
 .home-activities ul {display: inline-block; margin: 80px 0 20px 0; text-align: initial;}
