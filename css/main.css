@@ -71,6 +71,9 @@ h4 {font-size: 22px; font-weight: normal;}
 .grid > * {padding: 0 0 15px 15px;}
 .grid > .nogrid {padding-bottom: 0;}
 
+.grid-line {margin: 0 0 0 -15px; width: auto;}
+.grid-line > * {padding: 0 0 0 15px;}
+
 .col12{float:left; width: 100%;}
 .col11{float:left; width: 91.66666667%;}
 .col10{float:left; width: 83.33333333%;}
@@ -156,6 +159,8 @@ h4 {font-size: 22px; font-weight: normal;}
     -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg); transform: rotate(45deg);}
 
+
+
 .main-menu {margin: 0; padding: 0; font-size: 1.1em; color: #46244f; background: #fde9a0;}
 .main-menu > div {display: table; margin: 0 auto; max-width: 1170px; width: 100%;}
 .main-menu ul.top {display: table-row; text-align: center;}
@@ -164,7 +169,14 @@ h4 {font-size: 22px; font-weight: normal;}
 .main-menu a {display: block; width: 100%; line-height: 47px; padding: 0 5px; color: #46244f; text-decoration: none;}
 .main-menu a:hover {background: #3ac793;}
 
-.upcoming-events {margin: 0 0 25px 0; padding: 0 15px 10px 15px; background-color: #46244f;}
+
+
+.slogan img {float: left;}
+.slogan p {margin: 0; padding: 0;}
+
+
+
+.upcoming-events {margin: 0 0 25px 0; padding: 0 15px 25px 15px; background-color: #46244f;}
 .upcoming-events > h2.title {margin: 0; padding: 10px; text-align: center; color: #fff;}
 .upcoming-events .event {position: relative; height: 230px; overflow: hidden;}
 .upcoming-events .event img {width: 100%;}
@@ -173,6 +185,8 @@ h4 {font-size: 22px; font-weight: normal;}
 .upcoming-events .event:hover .descr {height: 70%;}
 .upcoming-events .event h4 {margin: 5px; padding: 0;}
 .upcoming-events .event p {margin: 0; padding: 0;}
+
+
 
 .home-activities > h2.title {display: block; margin: 25px 0; padding: 5px; text-align: center; color: #46244f; background: #fde9a0;}
 .home-activities > div {position: relative; margin-bottom: 35px; text-align: center; font-size: 18px;}
@@ -185,7 +199,7 @@ h4 {font-size: 22px; font-weight: normal;}
 .home-activities .n2 .cover {right: 0; background-image: url("/img/home/meditation-spiritual.jpg")}
 .home-activities .n3 .cover {left:  0; background-image: url("/img/home/biznes-protsess.jpg")}
 .home-activities h3 {display: block; position: absolute; color: #fff; left: 50%; margin: 15px 0; padding: 7px 15px;
-                       min-width: 40%; text-align: center;}
+                     min-width: 40%; text-align: center;}
 .home-activities .n1 h3 {background: #3eb388; transform: translateX(-33.333%);}
 .home-activities .n2 h3 {background: #5d3f66; transform: translateX(-66.666%);}
 .home-activities .n3 h3 {background: #37477a; transform: translateX(-33.333%);}
