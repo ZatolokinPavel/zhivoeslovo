@@ -175,6 +175,11 @@ h4 {font-size: 22px; font-weight: normal;}
 .slogan img {float: left;}
 .slogan .title {font-size: 1.3em;}
 .slogan p {margin: 8px 0 0 0; padding: 0 0 0 130px;}
+@media (max-width:  991px) {
+    .slogan img {float: none;}
+    .slogan .title {display: block; margin: 5px 0;}
+    .slogan p {display: block; margin-top: 5px; padding: 0;}
+}
 
 
 
