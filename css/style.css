@@ -55,12 +55,12 @@ html, body {width: 100%; overflow-x: hidden; margin: 0; padding: 0;}
 body {background: #f3f3f3; font-size: 14px; font-family: a_AvanteLt, "Segoe UI", Arial, Helvetica, sans-serif;
       letter-spacing: 0.05em; -webkit-font-smoothing: subpixel-antialiased !important;}
 .container {position: relative; width: 100%; margin: 0 auto;}
-h2 {font-size: 27px; font-weight: normal;}
-h3 {font-size: 24px; font-weight: normal;}
-h4 {font-size: 22px; font-weight: normal;}
 @media (min-width:  768px) { .container {width:  750px;} }
 @media (min-width:  992px) { .container {width:  970px;} }
 @media (min-width: 1200px) { .container {width: 1170px;} }
+h2 {font-size: 27px; font-weight: normal;}
+h3 {font-size: 24px; font-weight: normal;}
+h4 {font-size: 22px; font-weight: normal;}
 
 
 
@@ -180,14 +180,23 @@ h4 {font-size: 22px; font-weight: normal;}
 
 
 
+.slogan {margin-top: 45px; margin-bottom: 45px; text-align: center;}
 .slogan img {float: left;}
-.slogan p {margin: 0; padding: 0;}
+.slogan .title {font-size: 1.3em;}
+.slogan p {margin: 8px 0 0 0; padding: 0 0 0 130px;}
+@media (max-width:  991px) {
+    .slogan img {float: none;}
+    .slogan .title {display: block; margin: 5px 0;}
+    .slogan p {display: block; margin-top: 5px; padding: 0;}
+}
 
 
 
-.upcoming-events {margin: 0 0 25px 0; padding: 0 15px 25px 15px; background-color: #46244f;}
-.upcoming-events > h2.title {margin: 0; padding: 10px; text-align: center; color: #fff;}
-.upcoming-events .event {position: relative; height: 230px; overflow: hidden;}
+.upcoming-events {margin: 0 0 25px 0; padding: 0 0 25px 0; background-color: #46244f;}
+.upcoming-events h2.title {margin: 0; padding: 10px; text-align: center; color: #fff;}
+.upcoming-events .responsive {position: relative;}
+.upcoming-events .responsive::before {content: ''; display: block; padding-top: 64%;}   /* помогает держать высоту блока в процентах от ширины */
+.upcoming-events .event {position: absolute; top: 0; left: 0; bottom: 0; right: 0; overflow: hidden;}
 .upcoming-events .event img {width: 100%;}
 .upcoming-events .event .descr {position: absolute; left: 0; right: 0; bottom: 0; height: 45%; text-align: center;
     color: #fff; background: rgba(0,0,0,0.6); transition: height 0.2s linear 0s;}
@@ -198,22 +207,26 @@ h4 {font-size: 22px; font-weight: normal;}
 
 
 .home-activities > h2.title {display: block; margin: 25px 0; padding: 5px; text-align: center; color: #46244f; background: #fde9a0;}
-.home-activities > div {position: relative; margin-bottom: 35px; text-align: center; font-size: 18px;}
-.home-activities > div.n1 {background: #e1f1eb; padding-left:  50%;}
-.home-activities > div.n2 {background: #e1d9eb; padding-right: 50%;}
-.home-activities > div.n3 {background: #dee2ed; padding-left:  50%;}
+.home-activities > div {position: relative; margin-bottom: 35px; padding-top: 1px; text-align: center; font-size: 18px;}
+.home-activities > div.n1 {background: #e1f1eb;}
+.home-activities > div.n2 {background: #e1d9eb;}
+.home-activities > div.n3 {background: #dee2ed;}
 .home-activities .cover {position: absolute; top: 0; bottom: 0; width: 50%; height: 100%;
     background-repeat: no-repeat; background-size: cover;}
 .home-activities .n1 .cover {left:  0; background-image: url("/img/home/rocket-science.jpg")}
 .home-activities .n2 .cover {right: 0; background-image: url("/img/home/meditation-spiritual.jpg")}
 .home-activities .n3 .cover {left:  0; background-image: url("/img/home/biznes-protsess.jpg")}
-.home-activities h3 {display: block; position: absolute; color: #fff; left: 50%; margin: 15px 0; padding: 7px 15px;
-                     min-width: 40%; text-align: center;}
-.home-activities .n1 h3 {background: #3eb388; transform: translateX(-33.333%);}
-.home-activities .n2 h3 {background: #5d3f66; transform: translateX(-66.666%);}
-.home-activities .n3 h3 {background: #37477a; transform: translateX(-33.333%);}
-/*.home-activities > h3:before {display: block; content: ''; position: absolute; top: 0; right: 100%; height: 0; width: 0; border: 25px solid darkred; border-bottom-color: transparent; border-left-color: transparent;}*/
-/*.home-activities > h3:after  {display: block; content: ''; position: absolute; top: 0; left:  100%; height: 100%; width: 50px; background: red;}*/
-.home-activities ul {display: inline-block; margin: 80px 0 20px 0; text-align: initial;}
+.home-activities h3 {position: relative; color: #fff; margin: 15px auto; padding: 7px 50px; width: 70%; overflow-x: hidden;}
+.home-activities h3 span {position: relative;}      /* помогает отображать текст поверх уголка :before */
+.home-activities h3:before {content: ''; position: absolute; top: 0; height: 100%; width: 150%;}
+.home-activities .n1 h3:before {background: rgba(62,179,136,0.8); left: 35px; transform: skewX(45deg);}
+.home-activities .n2 h3:before {background: rgba(93,63,102,0.8); right: 35px; transform: skewX(-45deg);}
+.home-activities .n3 h3:before {background: rgba(55,71,122,0.8); left:  35px; transform: skewX(45deg);}
+@media (min-width: 992px) { .home-activities h3 {width: 60%;} }
+
+.home-activities ul {display: inline-block; margin: 0 0 20px 0; text-align: initial;}
+.home-activities .n1 ul {margin-left:  50%;}
+.home-activities .n2 ul {margin-right: 50%;}
+.home-activities .n3 ul {margin-left:  50%;}
 
 footer {padding: 35px 15px; text-align: center; color: #fff; background: #46244f}
