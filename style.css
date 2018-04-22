@@ -207,7 +207,7 @@ h4 {font-size: 22px; font-weight: normal;}
 
 
 .home-activities > h2.title {display: block; margin: 25px 0; padding: 5px; text-align: center; color: #46244f; background: #fde9a0;}
-.home-activities > div {position: relative; margin-bottom: 35px; padding-top: 1px; text-align: center; font-size: 18px;}
+.home-activities > div {position: relative; margin-bottom: 35px; padding-top: 1px; min-height: 300px; text-align: center; font-size: 18px;}
 .home-activities > div.n1 {background: #e1f1eb;}
 .home-activities > div.n2 {background: #e1d9eb;}
 .home-activities > div.n3 {background: #dee2ed;}
