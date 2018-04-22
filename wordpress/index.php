@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Живое Слово</title>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
+    <?php wp_head(); ?>
+</head>
+<body id="body" class="noscript">
+
+<!-- Для браузеров, где не работает js, применяем дополнительные стили -->
+<script>document.getElementById('body').classList.remove("noscript")</script>
+
+<header class="main-header">
+    <div class="container">
+        <div class="rhombuses box">
+            <div class="rhombus r1">
+                <div class="kharin">Александр Харин<br>руководитель проекта</div>
+            </div>
+            <div class="rhombus r2"></div>
+            <div class="rhombus r3"></div>
+            <div class="rhombus r4">
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile1.jpg')"></p>
+            </div>
+            <div class="rhombus big">
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile_big.jpg')"></p>
+            </div>
+            <div class="rhombus r5">
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile4.jpg')"></p>
+            </div>
+            <div class="rhombus r6">
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile3.jpg')"></p>
+            </div>
+            <div class="rhombus r7">
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile5.jpg')"></p>
+            </div>
+            <div class="rhombus r8"></div>
+            <div class="rhombus r9"></div>
+            <div class="rhombus r10"></div>
+            <div class="rhombus r11"></div>
+            <div class="rhombus r12"></div>
+        </div>
+    </div>
+</header>
+
+<menu id="main_menu" class="main-menu box">
+    <div>
+        <ul class="top">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Тренинги</a></li>
+            <li><a href="//zhivoeslovo.com/blog-o-psyhologii.html">Статьи</a></li>
+            <li><a href="//zhivoeslovo.com/konsultatsii-psihologa.html">Консультации</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="//zhivoeslovo.com/raspisanie">Расписание</a></li>
+            <li><a href="//zhivoeslovo.com/oplata-i-skidki.html">Стоимость</a></li>
+            <li><a href="//zhivoeslovo.com/video">Видео</a></li>
+            <li><a href="//zhivoeslovo.com/kontakty.html">Контакты</a></li>
+            <li><a href="//zhivoeslovo.com/o-nas.html">О&nbsp;нас</a></li>
+        </ul>
+    </div>
+</menu>
+
+
+
+<section class="slogan container box">
+    <div class="grid-line">
+        <div class="col4">
+            <img src="<?php bloginfo('template_url'); ?>/img/home/slogan1.png" alt="Познавай">
+            <span class="title">Осознавай</span>
+            <p>
+                Мы дадим вам инструменты для осознания и раскрытия вашего потенциала.
+                Вы узнаете себя, свои сильные и слабые стороны.
+            </p>
+        </div>
+        <div class="col4">
+            <img src="<?php bloginfo('template_url'); ?>/img/home/slogan2.png" alt="Развивайся">
+            <span class="title">Расти</span>
+            <p>
+                Мы поможем вам вырасти личностно и духовно, опираясь на свои внутренние и внешние ресурсы.
+            </p>
+        </div>
+        <div class="col4">
+            <img src="<?php bloginfo('template_url'); ?>/img/home/slogan3.png" alt="Воплощай">
+            <span class="title">Реализуй</span>
+            <p>
+                Перед вами раскроются истинные пути реализации. Вы качественно измените свою жизнь.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="upcoming-events">
+    <div class="container box">
+        <h2 class="title">Ближайшие мероприятия</h2>
+        <div class="grid-line">
+            <div class="col4">
+                <div class="responsive">
+                    <div class="event">
+                        <img src="<?php bloginfo('template_url'); ?>/img/events/1-2015-06-25-Kma043VaMa.jpg">
+                        <div class="descr">
+                            <h4>Тренинг<br>&laquo;Моделирование реальности&raquo;</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col4">
+                <div class="responsive">
+                    <div class="event">
+                        <img src="<?php bloginfo('template_url'); ?>/img/events/271101__sand-stones-zen_p.jpg">
+                        <div class="descr">
+                            <h4>Тренинг<br>&laquo;Энергия рода&raquo;</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col4">
+                <div class="responsive">
+                    <div class="event">
+                        <img src="<?php bloginfo('template_url'); ?>/img/events/345323_jdpwjd.jpg">
+                        <div class="descr">
+                            <h4>Тренинг<br>&laquo;Предназначение&raquo;</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-activities container box">
+    <h2 class="title">Наши направления</h2>
+    <div class="box n1">
+        <div class="cover"></div>
+        <h3><span>Тренинги личностного развития</span></h3>
+        <ul>
+            <li>Школа развития личности</li>
+            <li>Школа осознанных отношений</li>
+            <li>Школа родительства</li>
+            <li>Ораторское искусство. Базовый курс</li>
+            <li>Соционика. Типирование</li>
+            <li>Тренинг «Деньги»</li>
+            <li>Ораторское искусство. Углубленный курс</li>
+            <li>Консультации психолога</li>
+        </ul>
+    </div>
+    <div class="box n2">
+        <div class="cover"></div>
+        <h3><span>Тренинги духовного развития</span></h3>
+        <ul>
+            <li>Школа духовного развития</li>
+            <li>Работа с родом</li>
+            <li>Тренинг по архетипам «Мужчина и Женщина»</li>
+            <li>Метафизика заболеваний</li>
+            <li>Системные семейные расстановки</li>
+            <li>Исцеление внутреннего ребенка</li>
+            <li>Школа целительства</li>
+        </ul>
+    </div>
+    <div class="box n3">
+        <div class="cover"></div>
+        <h3><span>Бизнес тренинги</span></h3>
+        <ul>
+            <li>Деловая риторика</li>
+            <li>Бизнес коммуникации</li>
+            <li>Деловые переговоры</li>
+            <li>Тайм-менеджмент</li>
+            <li>Мотивация. Самомотивация. Командообразование</li>
+            <li>Соционика для командообразования</li>
+        </ul>
+    </div>
+</section>
+
+
+<div class="subscription_wrap container box">
+    <div class="subscription">
+        <div class="text2">
+            Хотите первыми узнавать о новых статьях, обучающих видео, о нашем расписании и предложениях?
+        </div>
+        <div class="text1">Подписаться на новости</div>
+        <div class="triangle">
+            <div class="helper"></div>
+            <img src="wordpress/images/home/newsletter-icon.png">
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <div class="footer-top container">
+        logo
+        <div class="counters">
+            <div><p>12</p>лет<br>на рынке</div>
+            <div><p>1768</p>довольных<br>клиентов</div>
+            <div><p>73</p>тренинга<br>проведено</div>
+        </div>
+    </div>
+    <div class="footer-bottom container box">
+        <div class="copyright">
+            <p>
+                Использование материалов, размещённых на сайте, разрешается только
+                при наличии активной ссылки на данный ресурс.
+            </p>
+        </div>
+        <div class="contacts" itemscope itemtype="http://schema.org/Organization">
+            <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                г. <span itemprop="addressLocality">Днепр</span>,
+                <span itemprop="streetAddress">ул. Воскресенская, 27/35</span><br>
+                (бывш. ул. Ленина)
+            </p>
+            <p><a href="mailto:info@zhivoeslovo.com" itemprop="email">info@zhivoeslovo.com</a></p>
+            <p>
+                <span itemprop="telephone">+380 (97) 33-44-505</span><br>
+                <span itemprop="telephone">+380 (66) 33-44-509</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
