@@ -22,19 +22,19 @@
             <div class="rhombus r2"></div>
             <div class="rhombus r3"></div>
             <div class="rhombus r4">
-                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile1.jpg')"></p>
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/images/tile1.jpg')"></p>
             </div>
             <div class="rhombus big">
-                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile_big.jpg')"></p>
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/images/tile_big.jpg')"></p>
             </div>
             <div class="rhombus r5">
-                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile4.jpg')"></p>
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/images/tile4.jpg')"></p>
             </div>
             <div class="rhombus r6">
-                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile3.jpg')"></p>
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/images/tile3.jpg')"></p>
             </div>
             <div class="rhombus r7">
-                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/img/tile5.jpg')"></p>
+                <p class="tile" style="background-image: url('<?php bloginfo('template_url'); ?>/images/tile5.jpg')"></p>
             </div>
             <div class="rhombus r8"></div>
             <div class="rhombus r9"></div>
@@ -48,16 +48,16 @@
 <menu id="main_menu" class="main-menu box">
     <div>
         <ul class="top">
-            <li><a href="#">Главная</a></li>
+            <li><a href="/">Главная</a></li>
             <li><a href="#">Тренинги</a></li>
-            <li><a href="//zhivoeslovo.com/blog-o-psyhologii.html">Статьи</a></li>
-            <li><a href="//zhivoeslovo.com/konsultatsii-psihologa.html">Консультации</a></li>
+            <li><a href="/blog-o-psyhologii.html">Статьи</a></li>
+            <li><a href="/konsultatsii-psihologa.html">Консультации</a></li>
             <li><a href="#">Новости</a></li>
-            <li><a href="//zhivoeslovo.com/raspisanie">Расписание</a></li>
-            <li><a href="//zhivoeslovo.com/oplata-i-skidki.html">Стоимость</a></li>
-            <li><a href="//zhivoeslovo.com/video">Видео</a></li>
-            <li><a href="//zhivoeslovo.com/kontakty.html">Контакты</a></li>
-            <li><a href="//zhivoeslovo.com/o-nas.html">О&nbsp;нас</a></li>
+            <li><a href="/raspisanie">Расписание</a></li>
+            <li><a href="/oplata-i-skidki.html">Стоимость</a></li>
+            <li><a href="/video">Видео</a></li>
+            <li><a href="/kontakty.html">Контакты</a></li>
+            <li><a href="/o-nas.html">О&nbsp;нас</a></li>
         </ul>
     </div>
 </menu>
@@ -67,7 +67,7 @@
 <section class="slogan container box">
     <div class="grid-line">
         <div class="col4">
-            <img src="<?php bloginfo('template_url'); ?>/img/home/slogan1.png" alt="Познавай">
+            <img src="<?php bloginfo('template_url'); ?>/images/home/slogan1.png" alt="Познавай">
             <span class="title">Осознавай</span>
             <p>
                 Мы дадим вам инструменты для осознания и раскрытия вашего потенциала.
@@ -75,14 +75,14 @@
             </p>
         </div>
         <div class="col4">
-            <img src="<?php bloginfo('template_url'); ?>/img/home/slogan2.png" alt="Развивайся">
+            <img src="<?php bloginfo('template_url'); ?>/images/home/slogan2.png" alt="Развивайся">
             <span class="title">Расти</span>
             <p>
                 Мы поможем вам вырасти личностно и духовно, опираясь на свои внутренние и внешние ресурсы.
             </p>
         </div>
         <div class="col4">
-            <img src="<?php bloginfo('template_url'); ?>/img/home/slogan3.png" alt="Воплощай">
+            <img src="<?php bloginfo('template_url'); ?>/images/home/slogan3.png" alt="Воплощай">
             <span class="title">Реализуй</span>
             <p>
                 Перед вами раскроются истинные пути реализации. Вы качественно измените свою жизнь.
@@ -98,7 +98,7 @@
             <div class="col4">
                 <div class="responsive">
                     <div class="event">
-                        <img src="<?php bloginfo('template_url'); ?>/img/events/1-2015-06-25-Kma043VaMa.jpg">
+                        <img src="<?php bloginfo('template_url'); ?>/images/events/1-2015-06-25-Kma043VaMa.jpg">
                         <div class="descr">
                             <h4>Тренинг<br>&laquo;Моделирование реальности&raquo;</h4>
                             <p>
@@ -115,7 +115,7 @@
             <div class="col4">
                 <div class="responsive">
                     <div class="event">
-                        <img src="<?php bloginfo('template_url'); ?>/img/events/271101__sand-stones-zen_p.jpg">
+                        <img src="<?php bloginfo('template_url'); ?>/images/events/271101__sand-stones-zen_p.jpg">
                         <div class="descr">
                             <h4>Тренинг<br>&laquo;Энергия рода&raquo;</h4>
                             <p>
@@ -128,7 +128,7 @@
             <div class="col4">
                 <div class="responsive">
                     <div class="event">
-                        <img src="<?php bloginfo('template_url'); ?>/img/events/345323_jdpwjd.jpg">
+                        <img src="<?php bloginfo('template_url'); ?>/images/events/345323_jdpwjd.jpg">
                         <div class="descr">
                             <h4>Тренинг<br>&laquo;Предназначение&raquo;</h4>
                             <p>
@@ -195,7 +195,7 @@
         <div class="text1">Подписаться на новости</div>
         <div class="triangle">
             <div class="helper"></div>
-            <img src="wordpress/images/home/newsletter-icon.png">
+            <img src="<?php bloginfo('template_url'); ?>/images/home/newsletter-icon.png">
         </div>
     </div>
 </div>
