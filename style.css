@@ -240,7 +240,8 @@ h4 {font-size: 22px; font-weight: normal;}
     content: ''; display: block; position: absolute; bottom: 0; left: 50%; width: 0; height: 0;
     border: 80px solid transparent; border-bottom-color: #46244f; transform: translateX(-50%);}
 .subscription .text1 {padding: 5px 10px 5px 80px; background: #77b39d; font-size: 22px;}
-.subscription .text2 {padding: 5px 10px 5px 30px; background: #77b39d; max-width: 450px; opacity: 0;}
+.subscription .text2 {padding: 5px 10px 5px 30px; background: #77b39d; max-width: 450px; opacity: 0;
+    transition: opacity 0.2s linear 0s;}
 .subscription:hover .text2 {opacity: 1;}
 
 
