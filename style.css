@@ -229,13 +229,28 @@ h4 {font-size: 22px; font-weight: normal;}
 .home-activities .n2 ul {margin-right: 50%;}
 .home-activities .n3 ul {margin-left:  50%;}
 
+.subscription_wrap {margin: 35px auto; text-align: center; color: #fff;}
+.subscription {display: inline-block; position: relative;}
+.subscription .triangle {position: absolute; left: 0; bottom: 0; transform: translateX(-50%);}
+.subscription .triangle img {width: 50px; display: block; position: relative; margin: 5px;}
+.subscription .triangle .helper:before {
+    content: ''; display: block; position: absolute; bottom: 0; left: 50%; width: 0; height: 0;
+    border: 90px solid transparent; border-bottom-color: #77b39d; transform: translateX(-50%);}
+.subscription .triangle .helper:after {
+    content: ''; display: block; position: absolute; bottom: 0; left: 50%; width: 0; height: 0;
+    border: 80px solid transparent; border-bottom-color: #46244f; transform: translateX(-50%);}
+.subscription .text1 {padding: 5px 10px 5px 80px; background: #77b39d; font-size: 22px;}
+.subscription .text2 {padding: 5px 10px 5px 30px; background: #77b39d; max-width: 450px; opacity: 0;}
+.subscription:hover .text2 {opacity: 1;}
+
+
 footer {padding: 35px 15px; color: #fff; background: url("images/header/header_background.jpg") repeat top center}
 footer .footer-top {text-align: center; background: rgba(233,222,219,0.5);}
 footer .counters {position: relative; transform: translateY(15px); z-index: 2;}
 footer .counters > div {display: inline-block; width: 100px; margin: 0 38px; padding: 5px 10px; background: #353635;
     box-shadow: 0 0 3px rgba(0,0,0,0.7); border-radius: 3px;}
 footer .counters p {margin: 8px 0 10px 0; padding: 0; font-size: 2em;}
-footer .footer-bottom {background: #45264d;}
+footer .footer-bottom {background: #46244f;}
 footer .footer-bottom p {margin: 14px 0; padding: 0;}
 footer .copyright, footer .contacts {width: 50%; padding: 10px 35px;}
 footer .copyright {float: left; max-width: 385px; }
