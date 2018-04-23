@@ -46,7 +46,7 @@ Version: 1.0
 .box:after {content: ""; display: block; clear: both;}
 .center {text-align: center;}
 img {border: 0 none; height: auto; max-width: 100%; vertical-align: middle;}
-ul {list-style: none; margin: 0; padding: 0;}
+ul.pure {list-style: none; margin: 0; padding: 0;}
 
 /* Подгонка под старые браузеры: делаем HTML5 элементы блочными */
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}

@@ -54,7 +54,7 @@
 
 <menu id="main_menu" class="main-menu box">
     <div>
-        <ul class="top">
+        <ul class="pure top">
             <li><a href="/">Главная</a></li>
             <li><a href="#">Тренинги</a></li>
             <li><a href="/blog-o-psyhologii.html">Статьи</a></li>
