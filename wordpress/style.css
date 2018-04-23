@@ -245,6 +245,18 @@ h4 {font-size: 22px; font-weight: normal;}
 .subscription:hover .text2 {opacity: 1;}
 
 
+/**
+ *  Подгонка стилей для старого контента
+ */
+
+.old-content {margin-top: 45px; margin-bottom: 45px; color: #333; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.old-content hr {margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eeeeee;}
+
+/**
+ *  Конец подгонки стилей для старого контента
+ */
+
+
 footer {padding: 35px 15px; color: #fff; background: url("images/header/header_background.jpg") repeat top center}
 footer .footer-top {text-align: center; background: rgba(233,222,219,0.5); border-radius: 5px 5px 0 0;}
 footer .counters {position: relative; transform: translateY(15px); z-index: 2;}
