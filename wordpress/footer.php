@@ -1,6 +1,9 @@
 <?php
 /**
  * Шаблон подвала (footer.php)
+ *
+ * @package WordPress
+ * @subpackage ZhivoeSlovo
  */
 ?>
 
@@ -34,6 +37,7 @@
         </div>
     </div>
 </footer>
+<?php wp_footer(); ?>
 
 </body>
 </html>

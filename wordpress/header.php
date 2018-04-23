@@ -1,6 +1,9 @@
 <?php
 /**
  * Шаблон шапки (header.php)
+ *
+ * @package WordPress
+ * @subpackage ZhivoeSlovo
  */
 ?><!DOCTYPE html>
 <html lang="ru">
